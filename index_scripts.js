@@ -9,10 +9,27 @@ btn.addEventListener('click',function(){
 btn.addEventListener('mouseover',function(){
     btn.style.backgroundColor = '#555';
     btn.style.color = '#fff';
-    btn.style.boxShadow = '0px 0px 10px rgba(0,0,0,0.5)'
+    btn_orpho.style.transition = "background-color 1s ease";
+    btn_orpho.style.transform = "rotate(1deg)";
 })
 btn.addEventListener('mouseout',function(){
-    btn.style.backgroundColor = '#B7FFE1'
-    btn.style.color = 'black'
-    btn.style.boxShadow = '0px 0px 0px'
+    btn.style.backgroundColor = '';
+    btn.style.color = '';
+    btn.style.boxShadow = '';
+})
+let btn_orpho = document.querySelector('#btn_orpho')
+btn_orpho.addEventListener('click',function(){
+    window.location.href = 'start_test.html';
+})
+btn_orpho.addEventListener('mouseover',function(){
+    btn_orpho.style.backgroundColor = 'black';
+    btn_orpho.style.color = 'white';
+    btn_orpho.style.transition = "background-color 2s ease";
+    btn_orpho.style.transform = "rotate(1deg)";
+})
+btn_orpho.addEventListener('mouseout',function(){
+    btn_orpho.style.backgroundColor = ''
+    btn_orpho.style.color = ''
+    btn_orpho.style.transform = ''
+    btn_orpho.style.transition = ''
 })

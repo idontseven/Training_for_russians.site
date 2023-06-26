@@ -55,9 +55,6 @@ width: 360px;
 height: 38px;
 left: 3px;
 top: 400.65px;
-
-background: rgba(62, 190, 159, 0.5);
-transform: rotate(-0.48deg);
 }
 .rectangle11{
     position: absolute;
@@ -81,8 +78,6 @@ height: 38px;
 left: 0px;
 top: 455.5px;
 
-background: rgba(62, 190, 159, 0.5);
-transform: rotate(-0.48deg);
 }
 .rectangle22{
     position: absolute;
@@ -96,7 +91,10 @@ font-style: normal;
 font-weight: 400;
 font-size: 32px;
 line-height: 42px;
-color: #FF0000;
+color: black;
+
+background-color: #B7FFE1;
+font-family:'Times New Roman';
 }
 .rectangle3{
     position: absolute;
@@ -105,8 +103,6 @@ height: 38px;
 left: -19px;
 top: 512.43px;
 
-background: rgba(62, 190, 159, 0.5);
-transform: rotate(-0.48deg);
 }
 .rectangle33{
     position: absolute;
